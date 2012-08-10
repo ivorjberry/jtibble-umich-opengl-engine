@@ -1,0 +1,80 @@
+﻿Build started 8/9/2012 5:23:24 PM.
+     1>Project "C:\Users\John\Documents\GitHub\jtibble-umich-opengl-engine\UMG\UMG.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\John\Documents\GitHub\jtibble-umich-opengl-engine\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\UMG.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\OpenAL 1.1 SDK\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AI.cpp aldlist.cpp Camera.cpp CWaves.cpp Framework.cpp InputDevice.cpp Item.cpp LoadOAL.cpp LTGA.cpp main.cpp Model.cpp OpenGLContext.cpp Physics.cpp Sound.cpp Vehicle.cpp World.cpp
+         World.cpp
+         Vehicle.cpp
+     1>c:\users\john\documents\github\jtibble-umich-opengl-engine\umg\vehicle.cpp(416): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Sound.cpp
+         Physics.cpp
+         OpenGLContext.cpp
+         Model.cpp
+         main.cpp
+         LTGA.cpp
+         LoadOAL.cpp
+         Item.cpp
+         InputDevice.cpp
+         Framework.cpp
+     1>c:\users\john\documents\github\jtibble-umich-opengl-engine\umg\framework.cpp(203): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         CWaves.cpp
+         Camera.cpp
+         aldlist.cpp
+         AI.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ThrashNBurn.exe.embed.manifest.res" Debug\ThrashNBurn_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\John\Documents\GitHub\jtibble-umich-opengl-engine\Debug\ThrashNBurn.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32" OpenAL32.lib winmm.lib opengl32.lib glew32s.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ThrashNBurn.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\John\Documents\GitHub\jtibble-umich-opengl-engine\Debug\ThrashNBurn.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\John\Documents\GitHub\jtibble-umich-opengl-engine\Debug\ThrashNBurn.lib" /MACHINE:X86 Debug\ThrashNBurn.exe.embed.manifest.res
+         Debug\AI.obj
+         Debug\aldlist.obj
+         Debug\Camera.obj
+         Debug\CWaves.obj
+         Debug\Framework.obj
+         Debug\InputDevice.obj
+         Debug\Item.obj
+         Debug\LoadOAL.obj
+         Debug\LTGA.obj
+         Debug\main.obj
+         Debug\Model.obj
+         Debug\OpenGLContext.obj
+         Debug\Physics.obj
+         Debug\Sound.obj
+         Debug\Vehicle.obj
+         Debug\World.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ThrashNBurn.exe.embed.manifest" /manifest Debug\ThrashNBurn.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ThrashNBurn.exe.embed.manifest.res" Debug\ThrashNBurn_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\John\Documents\GitHub\jtibble-umich-opengl-engine\Debug\ThrashNBurn.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32" OpenAL32.lib winmm.lib opengl32.lib glew32s.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ThrashNBurn.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\John\Documents\GitHub\jtibble-umich-opengl-engine\Debug\ThrashNBurn.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\John\Documents\GitHub\jtibble-umich-opengl-engine\Debug\ThrashNBurn.lib" /MACHINE:X86 Debug\ThrashNBurn.exe.embed.manifest.res
+         Debug\AI.obj
+         Debug\aldlist.obj
+         Debug\Camera.obj
+         Debug\CWaves.obj
+         Debug\Framework.obj
+         Debug\InputDevice.obj
+         Debug\Item.obj
+         Debug\LoadOAL.obj
+         Debug\LTGA.obj
+         Debug\main.obj
+         Debug\Model.obj
+         Debug\OpenGLContext.obj
+         Debug\Physics.obj
+         Debug\Sound.obj
+         Debug\Vehicle.obj
+         Debug\World.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         UMG.vcxproj -> C:\Users\John\Documents\GitHub\jtibble-umich-opengl-engine\Debug\ThrashNBurn.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\UMG.unsuccessfulbuild".
+         Touching "Debug\UMG.lastbuildstate".
+     1>Done Building Project "C:\Users\John\Documents\GitHub\jtibble-umich-opengl-engine\UMG\UMG.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.89

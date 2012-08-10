@@ -1,0 +1,26 @@
+varying vec3 n, v, position;
+
+void main( void )
+{
+    float baseR = 0.024; // 6/255
+    float baseG = 0.031; // 8/255
+    float baseB = 0.027; // 7/255
+    vec4 baseColor = vec4(baseR, baseG, baseB, 1.0);
+	
+	float lineR = 0.0;
+	float lineG = 0.302;
+	float lineB = 0.263;
+	vec4 lineColor = vec4(lineR, lineG, lineB, 1.0);
+
+	vec3 E = normalize(v);
+	float blend = clamp(E.y, 0.0, 1.0) + 0.5; //fudge-factor
+
+
+	
+	if( mod(position.x+1.0, 4.7) < 0.5  || mod(position.z+1.0, 4.6) < 0.5 || mod(position.y, 4.6) < 0.5)		//gl_FragColor = mix(baseColor, lineColor, blend);
+		gl_FragColor = mix(lineColor, baseColor, blend);
+	else
+		gl_FragColor = baseColor;
+	//gl_FragColor = lineColor;
+    
+}
